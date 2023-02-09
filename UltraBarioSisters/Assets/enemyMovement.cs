@@ -29,6 +29,7 @@ public class enemyMovement : MonoBehaviour
                 direction = !direction;
                 break;
             case "lava":
+                GameObject.Find("AudioManager").GetComponent<AudioManager>().Play("DeathSound");
                 Destroy(gameObject);
                 break;
         }
