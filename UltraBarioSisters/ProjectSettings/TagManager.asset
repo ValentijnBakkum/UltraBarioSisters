@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Floor
+  - Obstacle
   - Pipe
   - lava
+
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
