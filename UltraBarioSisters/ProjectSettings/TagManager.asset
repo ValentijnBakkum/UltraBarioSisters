@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Floor
   - Obstacle
+  - Pipe
+  - lava
+
   layers:
   - Default
   - TransparentFX
